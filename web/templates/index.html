@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Lista de jugadores
+{% endblock %}
+
+{% block main %}
+    <script>
+    // Función para redireccionar
+    function redireccionar() {
+        // Reemplaza 'otra_pagina.html' con la ruta de la página a la que deseas redirigir
+        window.location.href = '/juego';
+    }
+    </script>
+    <h2 class="uno-text">Jugadores</h2>
+    <br>
+    <button class="btn btn-primary" onclick="redireccionar()">Comenzar Partida</button>
+    <table class="table table-boardered table-striped">
+        <thead class="thead-light">
+            <tr>
+                <th>Lista de jugadores</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for jugador in jugadores %}
+                <tr>
+                    <td>{{ jugador.nombre }}</td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td align="right" colspan="4">Jugadores: {{ cantidad }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
