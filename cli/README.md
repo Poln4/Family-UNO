@@ -21,3 +21,22 @@ Ask for the number of points each player got that round.
 Display the updated total for everyone.
 End the game automatically when someone reaches or exceeds 200 points.
 Announce the winner (the player with the fewest points).
+
+## Example
+$ ./uno Alice Bob Charlie
+Ronda 1
+Puntos Alice: 25
+Puntos Bob: 40
+Puntos Charlie: 30
+
+Alice tiene 25 puntos.
+Bob tiene 40 puntos.
+Charlie tiene 30 puntos.
+
+Ronda 2
+Puntos Alice: 50
+Puntos Bob: 60
+Puntos Charlie: 70
+...
+¡Bob ha perdido con 210 puntos!
+¡Alice ha ganado!
