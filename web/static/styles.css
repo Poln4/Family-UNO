@@ -1,0 +1,83 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+/* Colors of the game UNO */
+.uno-text {
+    font-family: Arial, sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: yellow;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    -webkit-text-stroke: 1px white; /* For some browsers, including Safari */
+    -webkit-font-smoothing: antialiased; /* For better rendering on Webkit browsers */
+  }
+  
+.uno-card {
+    width: 200px; /* Ajusta el ancho según tu preferencia */
+    height: 100px; /* Ajusta el alto según tu preferencia */
+    border-radius: 50%; /* Esto creará la forma de óvalo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: rotate(-15deg);
+  }
+
+.uno-red {
+    background-color: red; /* Puedes cambiar el color aquí */
+    color: white; /* Color del texto */
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Cambia la fuente según tu preferencia */
+}
+
+.uno-yellow {
+    background-color: yellow; /* Puedes cambiar el color aquí */
+    color: white; /* Color del texto */
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Cambia la fuente según tu preferencia */
+}
+
+.uno-green {
+    background-color: green; /* Puedes cambiar el color aquí */
+    color: white; /* Color del texto */
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Cambia la fuente según tu preferencia */
+}
+
+.uno-blue {
+    background-color: blue; /* Puedes cambiar el color aquí */
+    color: white; /* Color del texto */
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Cambia la fuente según tu preferencia */
+}
+
+.text-white-shadow {
+    color: white; /* Color del texto */
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Cambia la fuente según tu preferencia */
+
+}
+
+nav ul li a {
+    border: 2px solid black;
+    border-radius: 50px; /* Creates an oval shape */
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 33;
+}
